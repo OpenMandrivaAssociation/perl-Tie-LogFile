@@ -2,7 +2,7 @@
 %define module	Tie-LogFile
 %define name	perl-%{module}
 %define version	0.1
-%define rel	1
+%define rel	2
 
 Summary:	Interface for maintaining a log
 Name:		%{name}
