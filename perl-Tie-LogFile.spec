@@ -41,3 +41,25 @@ rm -rf %{buildroot}
 %{perl_vendorlib}/Tie
 %{_mandir}/man3/Tie*
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.1-3mdv2010.0
++ Revision: 430605
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0.1-2mdv2008.1
++ Revision: 136362
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Jun 03 2007 Anssi Hannula <anssi@mandriva.org> 0.1-2mdv2008.0
++ Revision: 34883
+- annual rebuild
+
+
+* Sun May 28 2006 Anssi Hannula <anssi@mandriva.org> 0.1-1mdv2007.0
+- initial Mandriva package
+
