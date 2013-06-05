@@ -6,12 +6,12 @@
 
 Summary:	Interface for maintaining a log
 Name:		%{name}
-Version:	%{version}
-Release:	%mkrel %{rel}
+Version:	%perl_convert_version 0.1
+Release:	1
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/%{module}-%{version}.tar.bz2
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Tie/Tie-LogFile-0.1.tar.gz
 BuildRequires:	perl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
@@ -62,4 +62,5 @@ rm -rf %{buildroot}
 
 * Sun May 28 2006 Anssi Hannula <anssi@mandriva.org> 0.1-1mdv2007.0
 - initial Mandriva package
+
 
