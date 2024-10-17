@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{upstream_version}
 Release:	6
 License:	GPL or Artistic
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{module}
+URL:		https://search.cpan.org/dist/%{module}
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/%{module}-%{upstream_version}.tar.bz2
 BuildRequires:	perl-devel
 BuildArch:	noarch
