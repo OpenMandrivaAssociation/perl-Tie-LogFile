@@ -1,14 +1,12 @@
 %define module	Tie-LogFile
-%define upstream_version	0.1
-
 Summary:	Interface for maintaining a log
 Name:		perl-%{module}
-Version:	%perl_convert_version %{upstream_version}
-Release:	6
+Version:	0.1
+Release:	7
 License:	GPL or Artistic
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/%{module}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/%{module}-%{upstream_version}.tar.bz2
+URL:		https://metacpan.org/dist/%{module}
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tie/%{module}-%{version}.tar.bz2
 BuildRequires:	make
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -19,7 +17,7 @@ user tweakable sprintf like tags, Tie::LogFile is flexible, and probably a
 little overkill for keeping a log.
 
 %prep
-%setup -q -n %{module}-%{upstream_version}
+%setup -q -n %{module}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
