@@ -3,7 +3,7 @@
 Summary:	Interface for maintaining a log
 Name:		perl-%{module}
 Version:	0.1
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		https://metacpan.org/dist/%{module}
@@ -21,7 +21,7 @@ little overkill for keeping a log.
 %setup -q -n %{module}-%{version}
 
 %build
-%{__perl} Makefile.PL INSTALLDIRS=vendor
+perl Makefile.PL INSTALLDIRS=vendor
 %make
 
 %install
